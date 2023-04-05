@@ -1,0 +1,43 @@
+/* TAMAÑO CUADRO ROSADO */
+.rosado{
+    background-color: pink;
+}
+/* Segun los pixeles es como cambia la apariencia del <div> */
+@media screen and (max-width: 500px){
+    div.rosado {
+        height: 200px;
+    }
+  }
+
+/* TAMAÑO CUADRO VERDE */
+.verde{
+    background-color: green;
+}
+@media screen and (max-width: 500px){
+    div.verde {
+        height: 200px;
+        width: 100%;
+    }
+  }
+
+  /* TAMAÑO CUADRO AZUL */
+.azul{
+    background-color: blue;
+}
+@media screen and (max-width: 500px){
+    div.azul {
+        height: 100px;
+        width: 100%;
+    }
+  }
+
+/* TAMAÑO CUADRO GRIS */
+.gris{
+    background-color: grey;
+}
+@media screen and (max-width: 500px){
+    div.gris {
+        height: 300px;
+        width: 100%;
+    }
+  }
